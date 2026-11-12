@@ -1,3 +1,4 @@
+local migration_state = require("migration-state")
 local mod_gui = require("mod-gui")
 local util = require("util")
 
@@ -74,3 +75,6 @@ script.on_event(defines.events.on_player_changed_surface, function(event)
         })
     end
 end)
+
+script.on_init(function() migration_state.adopt() end)
+script.on_configuration_changed(function() migration_state.adopt() end)
