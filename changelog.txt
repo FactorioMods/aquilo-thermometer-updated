@@ -4,6 +4,8 @@ Date: 2026-11-13
   Features:
     - Show or hide the thermometer with a toolbar button, close button or per-player mod setting.
     - Remember window visibility independently for each player.
+    - Select any compatible heating-tower fuel, including modded fuels, for the consumption estimate.
+    - Save fuel selections per player and refresh the estimate on demand.
   Changes:
     - Restore the panel when joining an existing world and update it when the viewed surface or force changes.
     - Replace legacy thermometer frames when updating an existing save.

@@ -2,7 +2,7 @@
   "name": "aquilo-thermometer-updated",
   "version": "1.0.3",
   "title": "Aquilo Thermometer: Updated",
-  "description": "Shows how much heat is required to keep your base from freezing.",
+  "description": "Estimates the heat needed to keep your base from freezing, with per-player window controls and selectable heating-tower fuel.",
   "author": "Feidan; johnmart19 / FactorioMods",
   "contact": "Feidan#9851 on Factorio Discord",
   "dependencies": [
