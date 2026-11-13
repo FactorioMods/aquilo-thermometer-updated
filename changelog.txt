@@ -1,15 +1,9 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.0.2
+Version: 1.0.3
+Date: 2026-11-13
+  Features:
+    - Show or hide the thermometer with a toolbar button, close button or per-player mod setting.
+    - Remember window visibility independently for each player.
   Changes:
-    - Update prototypes and APIs for Factorio 2.1 while preserving existing content and settings.
-    - Adopt the original mod identity through native ownership migration.
----------------------------------------------------------------------------------------------------
-Version: 1.0.1
-Date: 2024-11-23
-  Info:
-    - Change required Space Age version to 2.0.21 (https://forums.factorio.com/121781)
----------------------------------------------------------------------------------------------------
-Version: 1.0.0
-Date: 2024-11-23
-  Info:
-    - Initial release
+    - Restore the panel when joining an existing world and update it when the viewed surface or force changes.
+    - Replace legacy thermometer frames when updating an existing save.
